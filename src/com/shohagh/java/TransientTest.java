@@ -44,6 +44,13 @@ public class TransientTest implements Serializable{
         System.out.println("k = " + output.k);
         System.out.println("l = " + output.l);  
         System.out.println("m = " + output.m);
+        
+        TransientTest test = new TransientTest();
+        test.testTransient(test);
+        System.out.println("after creating transient Object :: k="+test.k);
     }
-
+    public void testTransient(Object test){
+    	TransientTest test2=(TransientTest)test;
+    	System.out.println(test2.k);
+    }
 }
