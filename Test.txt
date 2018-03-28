@@ -1,0 +1,57 @@
+user Pori PDU Service Viewer 3 read,show
+user SHA Service viewer 3 read,show
+user PM SymBelt viewer 3 read,show
+user Karlstad global tissue service viewer 3 read,show
+user NA Spares viewer 3 read,show
+user NA Roll viewer 3 read,show
+user Sundsvall COM Viewer 3 read,show
+user Sundsvall MFU Viewer 3 read,show
+user Sundsvall CPU Viewer 3 read,show
+user Sundsvall PDU Viewer 3 read,show
+user Valkeakoski PBL Viewer 3 read,show
+user EIF System importer read,modify,checkin,changeowner,promote,demote,schedule,create,revise,changevault,changename,changepolicy,changetype,fromconnect,toconnect,fromdisconnect,todisconnect,execute,show
+user MFK Service Viewer 3 read,show
+user MFK Viewer 3 read,show
+user Structure editor read,modify,toconnect,show
+user GDI viewer 3 read,show
+user Pori WHL Viewer 3 read,show
+user Pori PDU Viewer 3 read,show
+user Sundsvall Service COM Viewer 3 read,show
+user Sundsvall Service MFU Viewer 3 read,show
+user Sundsvall Service PDU Viewer 3 read,show
+user Sundsvall Service CPU Viewer 3 read,show
+user Power viewer read,show
+user JKL PDU Viewer 3 read,show
+user Sundsvall Viewer 3 read,show
+user Sundsvall Service Viewer 3 read,show
+user Grastorp Viewer 3 read,show
+user Grastorp Service Viewer 3 read,show
+user Model structure reader read,checkout,todisconnect,show
+user Model structure releaser todisconnect,show
+user Model structure editor read,checkout,changeowner,demote,revise,changevault,changepolicy,toconnect,todisconnect,show
+user Model structure manager read,checkout,demote,revise,fromconnect,fromdisconnect,todisconnect,show
+user Translation editor read,checkout,todisconnect,show
+user Local system administrator read,modify,delete,checkout,checkin,lock,unlock,changeowner,promote,demote,create,revise,changevault,changepolicy,fromconnect,toconnect,fromdisconnect,todisconnect,execute,show
+user Global system administrator read,modify,delete,checkout,checkin,lock,unlock,changeowner,promote,demote,create,revise,changevault,changepolicy,fromconnect,toconnect,fromdisconnect,todisconnect,execute,show
+user Structure spare part editor read,checkout,fromconnect,fromdisconnect,todisconnect,show
+user Metso paper viewer 1 read,todisconnect,show
+user Metso paper viewer 2 read,checkout,todisconnect,show
+user Metso paper viewer 3 read,checkout,todisconnect,show
+user JAR viewer 3 read,show
+user NA Finishing viewer 3 read,show
+user NA Paper Machine viewer 3 read,show
+user NA Wood Systems viewer 3 read,show
+user NA Fiber viewer 3 read,show
+user Valkeakoski Viewer 3 read,show
+user Pori Viewer 3 read,show
+user Valkeakoski Service Viewer 3 read,show
+user JKL Service viewer 3 read,show
+user TKU Service viewer 3 read,show
+user JAR Service viewer 3 read,show
+user NA Finishing Service viewer 3 read,show
+user NA Paper Machine Service viewer 3 read,show
+user MPIT viewer 3 read,show
+user Karlstad tissue service viewer 3 read,show
+user MPJ Service Viewer 3 read,show
+user JKL PM Engineering viewer 3 read,show
+user Shanghai Wet End Viewer 3 read,show

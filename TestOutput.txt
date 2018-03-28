@@ -1,0 +1,228 @@
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Pori PDU Service Viewer 3" read,show};
+puts "Adding user Pori PDU Service Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "SHA Service viewer 3" read,show};
+puts "Adding user SHA Service viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "PM SymBelt viewer 3" read,show};
+puts "Adding user PM SymBelt viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Karlstad global tissue service viewer 3" read,show};
+puts "Adding user Karlstad global tissue service viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "NA Spares viewer 3" read,show};
+puts "Adding user NA Spares viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "NA Roll viewer 3" read,show};
+puts "Adding user NA Roll viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall COM Viewer 3" read,show};
+puts "Adding user Sundsvall COM Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall MFU Viewer 3" read,show};
+puts "Adding user Sundsvall MFU Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall CPU Viewer 3" read,show};
+puts "Adding user Sundsvall CPU Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall PDU Viewer 3" read,show};
+puts "Adding user Sundsvall PDU Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Valkeakoski PBL Viewer 3" read,show};
+puts "Adding user Valkeakoski PBL Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "EIF System importer" read,modify,checkin,changeowner,promote,demote,schedule,create,revise,changevault,changename,changepolicy,changetype,fromconnect,toconnect,fromdisconnect,todisconnect,execute,show};
+puts "Adding user EIF System importer :access: read,modify,checkin,changeowner,promote,demote,schedule,create,revise,changevault,changename,changepolicy,changetype,fromconnect,toconnect,fromdisconnect,todisconnect,execute,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "MFK Service Viewer 3" read,show};
+puts "Adding user MFK Service Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "MFK Viewer 3" read,show};
+puts "Adding user MFK Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Structure editor" read,modify,toconnect,show};
+puts "Adding user Structure editor :access: read,modify,toconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "GDI viewer 3" read,show};
+puts "Adding user GDI viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Pori WHL Viewer 3" read,show};
+puts "Adding user Pori WHL Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Pori PDU Viewer 3" read,show};
+puts "Adding user Pori PDU Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall Service COM Viewer 3" read,show};
+puts "Adding user Sundsvall Service COM Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall Service MFU Viewer 3" read,show};
+puts "Adding user Sundsvall Service MFU Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall Service PDU Viewer 3" read,show};
+puts "Adding user Sundsvall Service PDU Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall Service CPU Viewer 3" read,show};
+puts "Adding user Sundsvall Service CPU Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Power viewer" read,show};
+puts "Adding user Power viewer :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "JKL PDU Viewer 3" read,show};
+puts "Adding user JKL PDU Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall Viewer 3" read,show};
+puts "Adding user Sundsvall Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Sundsvall Service Viewer 3" read,show};
+puts "Adding user Sundsvall Service Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Grastorp Viewer 3" read,show};
+puts "Adding user Grastorp Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Grastorp Service Viewer 3" read,show};
+puts "Adding user Grastorp Service Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Model structure reader" read,checkout,todisconnect,show};
+puts "Adding user Model structure reader :access: read,checkout,todisconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Model structure releaser" todisconnect,show};
+puts "Adding user Model structure releaser :access: todisconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Model structure editor" read,checkout,changeowner,demote,revise,changevault,changepolicy,toconnect,todisconnect,show};
+puts "Adding user Model structure editor :access: read,checkout,changeowner,demote,revise,changevault,changepolicy,toconnect,todisconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Model structure manager" read,checkout,demote,revise,fromconnect,fromdisconnect,todisconnect,show};
+puts "Adding user Model structure manager :access: read,checkout,demote,revise,fromconnect,fromdisconnect,todisconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Translation editor" read,checkout,todisconnect,show};
+puts "Adding user Translation editor :access: read,checkout,todisconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Local system administrator" read,modify,delete,checkout,checkin,lock,unlock,changeowner,promote,demote,create,revise,changevault,changepolicy,fromconnect,toconnect,fromdisconnect,todisconnect,execute,show};
+puts "Adding user Local system administrator :access: read,modify,delete,checkout,checkin,lock,unlock,changeowner,promote,demote,create,revise,changevault,changepolicy,fromconnect,toconnect,fromdisconnect,todisconnect,execute,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Global system administrator" read,modify,delete,checkout,checkin,lock,unlock,changeowner,promote,demote,create,revise,changevault,changepolicy,fromconnect,toconnect,fromdisconnect,todisconnect,execute,show};
+puts "Adding user Global system administrator :access: read,modify,delete,checkout,checkin,lock,unlock,changeowner,promote,demote,create,revise,changevault,changepolicy,fromconnect,toconnect,fromdisconnect,todisconnect,execute,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Structure spare part editor" read,checkout,fromconnect,fromdisconnect,todisconnect,show};
+puts "Adding user Structure spare part editor :access: read,checkout,fromconnect,fromdisconnect,todisconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Metso paper viewer 1" read,todisconnect,show};
+puts "Adding user Metso paper viewer 1 :access: read,todisconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Metso paper viewer 2" read,checkout,todisconnect,show};
+puts "Adding user Metso paper viewer 2 :access: read,checkout,todisconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Metso paper viewer 3" read,checkout,todisconnect,show};
+puts "Adding user Metso paper viewer 3 :access: read,checkout,todisconnect,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "JAR viewer 3" read,show};
+puts "Adding user JAR viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "NA Finishing viewer 3" read,show};
+puts "Adding user NA Finishing viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "NA Paper Machine viewer 3" read,show};
+puts "Adding user NA Paper Machine viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "NA Wood Systems viewer 3" read,show};
+puts "Adding user NA Wood Systems viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "NA Fiber viewer 3" read,show};
+puts "Adding user NA Fiber viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Valkeakoski Viewer 3" read,show};
+puts "Adding user Valkeakoski Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Pori Viewer 3" read,show};
+puts "Adding user Pori Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Valkeakoski Service Viewer 3" read,show};
+puts "Adding user Valkeakoski Service Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "JKL Service viewer 3" read,show};
+puts "Adding user JKL Service viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "TKU Service viewer 3" read,show};
+puts "Adding user TKU Service viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "JAR Service viewer 3" read,show};
+puts "Adding user JAR Service viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "NA Finishing Service viewer 3" read,show};
+puts "Adding user NA Finishing Service viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "NA Paper Machine Service viewer 3" read,show};
+puts "Adding user NA Paper Machine Service viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "MPIT viewer 3" read,show};
+puts "Adding user MPIT viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Karlstad tissue service viewer 3" read,show};
+puts "Adding user Karlstad tissue service viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "MPJ Service Viewer 3" read,show};
+puts "Adding user MPJ Service Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "JKL PM Engineering viewer 3" read,show};
+puts "Adding user JKL PM Engineering viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
+set mqlCmd { mql modify policy "ODI skeleton" state "Forbidden" add user "Shanghai Wet End Viewer 3" read,show};
+puts "Adding user Shanghai Wet End Viewer 3 :access: read,show into ODI Skeleton policy;"
+executeCmd $fp_LogFile $mqlCmd $name $type $op ;
+
